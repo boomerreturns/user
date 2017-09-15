@@ -1,0 +1,142 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.userChoice {
+  grid-column: span 1;
+  background-color: #008CBA;
+  border-radius: 2px;
+  grid-row-start: 2;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.userChoice:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/*.userChoice a {
+  color: white;
+  font-size: 20px;
+}*/
+
+.newUser {
+  grid-column-start: 2;
+}
+
+.returningUser {
+  grid-column-start: 4;
+}
+
+.userGrid {
+  grid-column: 1/6;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  grid-row-gap: 15px;
+  grid-column-gap: 10px;
+  align-items: stretch;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr 2fr 2fr 1fr;
+  grid-row-gap: 15px;
+  grid-column-gap: 10px;
+
+}
+
+.formContainer {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-gap: 15px;
+  grid-row: 2 / 4;
+  display: grid;
+}
+
+.submitContainer {
+    grid-row: 4 / 5;
+    display: grid;
+    grid-column: 2 / 5;
+}
+
+.userSubmisson {
+  grid-column-start: 2;
+
+}
+
+.inputSection {
+  grid-column-start: 1;
+  grid-column: span 4;
+  grid-row: span 1;
+  display: grid;
+}
+
+.addressSection {
+  grid-column-start: 1;
+  grid-column: span 4;
+  grid-row: span 1;
+  grid-column-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.infoSection {
+  grid-column-start: 2;
+  grid-column: span 4;
+  grid-row: span 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.pageTitle {
+  grid-row-start: 1;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.nameFields {
+  grid-row-start:2;
+  grid-column: span 1;
+}
+
+.phoneSection {
+  grid-column-start: 1;
+}
+
+.emailSection {
+  grid-column-start: 3;
+  grid-column: span 2;
+}
+
+.streetSection {
+  grid-column: span 2;
+}
+
+.zipcodeSection {
+  grid-column: span 2
+}
+
+.addressSection div {
+  display: flex;
+  align-items: center;
+}
+
+.addressSection label {
+  margin-bottom: 0;
+  margin-right: 5px;
+}
+
+.citySection {
+  grid-column: span 1;
+}
+
+.statePicker {
+  grid-column: span 1;
+}

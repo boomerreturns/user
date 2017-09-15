@@ -30,7 +30,7 @@ $(() => {
   })
 
   function redirectToOrders(){
-    location.href = 'order'
+    location.href = 'https://boomerreturns.github.io/order/'
   }
 
 

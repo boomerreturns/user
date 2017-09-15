@@ -30,7 +30,7 @@ $(() => {
   })
 
   function redirectToOrders(){
-    location.href = 'order.html'
+    location.href = 'order'
   }
 
 
